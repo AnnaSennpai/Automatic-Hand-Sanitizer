@@ -1,0 +1,2003 @@
+GNU Tool Chain  
+
+Linker command line:
+
+--edf=D:\Compiler\data\dat\en_msgs.txt -cs -h+touchlib_6015.sym \
+  --cmf=touchlib_6015.cmf -z -QFT62F28X \
+  -oC:\Users\ANNASE~1\AppData\Local\Temp\sikg.2 -Mtouchlib_6015.map -E1 \
+  -ver=XC8 -ASTACK=0120h-016fh -pstack=STACK -ACODE=00h-07FFhx4 \
+  -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
+  -AENTRY=00h-0FFhx32 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh \
+  -ABANK1=0A0h-0EFh -ABANK2=0120h-016Fh -ABANK3=01A0h-01EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0120h-016Fh,01A0h-01EFh \
+  -AABS1=020h-07Fh,0A0h-0FFh,0120h-017Fh,01A0h-01FFh -ASFR0=00h-01Fh \
+  -ASFR1=080h-09Fh -ASFR2=0100h-011Fh -ASFR3=0180h-019Fh \
+  -preset_vec=00h,intentry=04h,init,end_init -ppowerup=CODE -pcinit=CODE \
+  -pfunctab=ENTRY -ACONFIG=02007h-02007h -pconfig=CONFIG -DCONFIG=2 \
+  -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-06Fh/02100h \
+  -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
+  -DENTRY=2 -k C:\Users\ANNASE~1\AppData\Local\Temp\sikg.obj \
+  touchlib_6015.obj 
+
+Object code version is 3.11
+
+Machine type is FT62F28X
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\ANNASE~1\AppData\Local\Temp\sikg.obj
+                end_init                              C        C        3        8       0
+                reset_vec                             0        0        3        0       0
+touchlib_6015.obj
+                cinit                                 F        F       15        8       0
+                intentry                              4        4        8        8       0
+                text38                              F4F      F4F       1F     1E9E       0
+                text27                              F33      F33        E     1E66       0
+                text26                              F6E      F6E       20     1EDC       0
+                text22                              F41      F41        E     1E82       0
+                text21                              F8E      F8E       23     1F1C       0
+                text18                              596      596      165        8       0
+                text15                              FB1      FB1       4F     1F62       0
+                text4                                24       24      3E6        8       0
+                text1                               40A      40A      18C        8       0
+                maintext                            6FB      6FB       C1        8       0
+                cstackBANK0ll                        54       54        8       22       1
+                cstackCOMMONl                        7C       7C        2       74       1
+                cstackCOMMONh                        74       74        6       74       1
+                clrtext                             F2B      F2B        8     1E56       0
+                bssBANK1                             A0       A0       10       A0       1
+                bssBANK0ll                           22       22       32       22       1
+                bssCOMMONh                           7A       7A        2       74       1
+                nvBANK0ll                            5C       5C        2       22       1
+                strings                             7BC      7BC       43      F78       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                              C        C        3         0
+                cinit                                 F        F       15         0
+                intentry                              4        4        8         0
+                reset_vec                             0        0        3         0
+                text38                              F4F      F4F       1F         0
+                text27                              F33      F33        E         0
+                text26                              F6E      F6E       20         0
+                text22                              F41      F41        E         0
+                text21                              F8E      F8E       23         0
+                text18                              596      596      165         0
+                text15                              FB1      FB1       4F         0
+                text4                                24       24      3E6         0
+                text1                               40A      40A      18C         0
+                maintext                            6FB      6FB       C1         0
+                clrtext                             F2B      F2B        8         0
+
+        CLASS   STRCODE        
+
+        CLASS   STRING         
+                strings                             7BC      7BC       43         0
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+
+        CLASS   COMMON         
+                cstackCOMMONl                        7C       7C        2         1
+                cstackCOMMONh                        74       74        6         1
+                bssCOMMONh                           7A       7A        2         1
+
+        CLASS   BANK0          
+                cstackBANK0ll                        54       54        8         1
+                bssBANK0ll                           22       22       32         1
+                nvBANK0ll                            5C       5C        2         1
+
+        CLASS   BANK1          
+                bssBANK1                             A0       A0       10         1
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               20       20        2         1
+                abs_s1                               68       68        A         1
+                abs_s1                               6A       6A        2         1
+                abs_s1                               6C       6C        2         1
+                abs_s1                               6E       6E        2         1
+                abs_s1                               72       72        2         1
+                abs_s1                               73       73        1         1
+                abs_s1                               7E       7E        2         1
+                abs_s1                              100      100        0         1
+                abs_s1                              101      101        0         1
+                abs_s1                              102      102        0         1
+                abs_s1                              103      103        0         1
+                abs_s1                              104      104        0         1
+                abs_s1                              105      105        0         1
+                abs_s1                              106      106        0         1
+                abs_s1                              107      107        0         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   CONFIG         
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000003  000003         0       0  CODE        2
+                intentry                       000004  0007B8  0007BC         8       0  CODE        2
+                bssBANK0ll                     000022  00003C  00005E        22       1  BANK0       1
+                cstackCOMMONh                  000074  00000A  00007E        74       1  COMMON      1
+                bssBANK1                       0000A0  000010  0000B0        A0       1  BANK1       1
+                strings                        0007BC  000043  0007FF       F78       0  STRING      2
+                clrtext                        000F2B  000008  000F33      1E56       0  CODE        2
+                text27                         000F33  00000E  000F41      1E66       0  CODE        2
+                text22                         000F41  00000E  000F4F      1E82       0  CODE        2
+                text38                         000F4F  00001F  000F6E      1E9E       0  CODE        2
+                text26                         000F6E  000020  000F8E      1EDC       0  CODE        2
+                text21                         000F8E  000023  000FB1      1F1C       0  CODE        2
+                text15                         000FB1  00004F  001000      1F62       0  CODE        2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            005E-0067              A           1
+        BANK1            00B0-00EF             40           1
+        BANK2            0120-016F             50           1
+        BANK3            01A0-01EF             50           1
+        CODE             0003-0003              1           2
+                         07FF-0F2A              1
+                         1000-1FFF            800
+        COMMON           0070-0071              2           1
+        CONFIG           2007-2007              1           2
+        CONST            0003-0003              1           2
+                         07FF-0F2A            100
+                         1000-1FFF            100
+        EEDATA           2100-216F             70           2
+        ENTRY            0003-0003              1           2
+                         07FF-0F2A            100
+                         1000-1FFF            100
+        IDLOC            2000-2003              4           2
+        RAM              005E-0067              A           1
+                         00B0-00EF             40
+                         0120-016F             50
+                         01A0-01EF             50
+        SFR0             0000-001F             20           1
+        SFR1             0080-009F             20           1
+        SFR2             0100-011F             20           1
+        SFR3             0180-019F             20           1
+        STACK            0120-016F             50           1
+        STRCODE          0003-0003              1           2
+                         07FF-0F2A            72C
+                         1000-1FFF           1000
+        STRING           0003-0003              1           2
+                         07FF-0F2A            100
+                         1000-1FFF            100
+
+                                  Symbol Table
+
+?_GET_ADC_DATA                      cstackCOMMONl 007C
+?_TSC_GetLocalKey                   cstackCOMMONh 0076
+?___lwdiv                           cstackCOMMONh 0076
+?___wmul                            cstackCOMMONh 0076
+DelayMs@Time                        cstackBANK0ll 0054
+DelayMs@a                           cstackBANK0ll 0055
+DelayMs@b                           cstackBANK0ll 0056
+DelayUs@Time                        cstackCOMMONh 0076
+DelayUs@a                           cstackCOMMONh 0078
+GET_ADC_DATA@adcChannel             cstackBANK0ll 0055
+PL10                                text4         03DF
+PL12                                text4         03EA
+PL14                                text18        06EB
+PL16                                text22        0F47
+PL18                                text1         0588
+PL2                                 text1         0572
+PL20                                text18        06F4
+PL22                                text4         03F3
+PL24                                text1         058F
+PL26                                text4         03F9
+PL28                                text4         03FE
+PL30                                text4         0404
+PL4                                 text1         0580
+PL6                                 text4         03C8
+PL8                                 text4         03D4
+ReadCap@channel                     cstackCOMMONl 007C
+TSC_GetLocalKey@ulTKeyOutSingle     cstackBANK0ll 0058
+_ADCON0                             (abs)         0113
+_ADCON1                             (abs)         0114
+_ADCON3                             (abs)         0116
+_ADC_INITIAL                        text1         04F3
+_ADON                               (abs)         0898
+_ADRESH                             (abs)         0112
+_ADRESL                             (abs)         0111
+_ANSEL1                             (abs)         011F
+_AUXPGE                             (abs)         0809
+_ClearKeyBuff                       text18        0625
+_DIV                                text4         0252
+_DelayMs                            text1         04D8
+_DelayUs                            text1         050C
+_FOSCCALH                           (abs)         0109
+_FOSCCALL                           (abs)         0109
+_FSR                                (abs)         0004
+_FindTheSecondMin                   text4         032E
+_FindTheThirdMax                    text4         0348
+_FsrBackup                          bssBANK0ll    0045
+_GET_ADC_DATA                       text1         051B
+_GO_DONE                            (abs)         0899
+_GetAddress                         text4         0319
+_GetKeyData                         text4         0362
+_GetKeyVal                          text15        0FE7
+_GetLocalCount                      text4         0289
+_I2CADDR                            (abs)         0198
+_I2CCCR                             (abs)         0199
+_I2CCR1                             (abs)         0196
+_I2CCR2                             (abs)         0197
+_I2CDAT                             (abs)         019A
+_I2CISR                             (abs)         019E
+_INDF                               (abs)         0000
+_INTCON                             (abs)         000B
+_ISR                                text38        0F4F
+_InfraRed_Check                     text1         0486
+_InfraRed_GET                       text1         045C
+_InfraRed_ON                        text27        0F33
+_Initialize_Communication           text26        0F6E
+_LEDB_ON                            text1         0544
+_LEDGB_FLASH                        text1         0474
+_LEDG_ON                            text1         04D0
+_LEDR_ON                            text22        0F44
+_LEDW_ON                            text22        0F41
+_LED_OFF                            text1         04EF
+_LVDCON                             (abs)         001A
+_LVDIE                              (abs)         0465
+_LVDIF                              (abs)         0065
+_MSCON1                             (abs)         0101
+_MSCON2                             (abs)         010D
+_Motor_OFF                          text1         0540
+_Motor_ON                           text1         04D4
+_OPTION                             (abs)         0081
+_OSCCON                             (abs)         008F
+_OriginalData                       (abs)         0069
+_PA6                                (abs)         002E
+_PB0                                (abs)         0030
+_PB2                                (abs)         0032
+_PB3                                (abs)         0033
+_PB6                                (abs)         0036
+_PC2                                (abs)         003A
+_PCON                               (abs)         008E
+_PD4                                (abs)         0044
+_PORTA                              (abs)         0005
+_PORTB                              (abs)         0006
+_PORTC                              (abs)         0007
+_PORTD                              (abs)         0008
+_PR0                                (abs)         0107
+_PR1H                               (abs)         0118
+_PR1L                               (abs)         0117
+_ReadCap                            text18        0658
+_ReferenceData                      (abs)         006D
+_ReferenceDataH                     (abs)         006E
+_ReferenceDataL                     (abs)         006D
+_ResultData                         (abs)         006B
+_ResultData2                        (abs)         0072
+_ResultData2H                       (abs)         0073
+_ResultData2L                       (abs)         0072
+_ResultDataH                        (abs)         006C
+_ResultDataL                        (abs)         006B
+_SPICFG                             (abs)         018E
+_SPICR0                             (abs)         018D
+_SPICR1                             (abs)         0194
+_SPICRCP                            (abs)         0190
+_SPIDAT                             (abs)         018C
+_SPIIER                             (abs)         0193
+_SPIRXCRC                           (abs)         0191
+_SPISCR                             (abs)         018F
+_SPISTAT                            (abs)         0195
+_SPITXCRC                           (abs)         0192
+_STATUS                             (abs)         0003
+_SYS_INITIAL                        text21        0F8E
+_SavKeyData                         text4         02CA
+_SavKeyVal                          text4         03B4
+_SetTouchFreq                       text18        06D2
+_T0CON0                             (abs)         0105
+_T0DUTY                             (abs)         0108
+_T0ON                               (abs)         082B
+_T1CON0                             (abs)         0106
+_T1ON                               (abs)         0832
+_TKCON0                             (abs)         011B
+_TKEN0                              (abs)         011C
+_TKEN1                              (abs)         011D
+_TKEN2                              (abs)         019C
+_TKEN3                              (abs)         019D
+_TMR0                               (abs)         0001
+_TMR1H                              (abs)         011A
+_TMR1L                              (abs)         0119
+_TRISA                              (abs)         0085
+_TRISA6                             (abs)         042E
+_TRISB                              (abs)         0086
+_TRISB0                             (abs)         0430
+_TRISB2                             (abs)         0432
+_TRISB3                             (abs)         0433
+_TRISB6                             (abs)         0436
+_TRISC                              (abs)         0087
+_TRISC2                             (abs)         043A
+_TRISD                              (abs)         0088
+_TRISD4                             (abs)         0444
+_TSC_DataProcessing                 text18        0596
+_TSC_GetLocalKey                    text15        0FB1
+_TSC_INITIAL                        text18        059F
+_TSC_Start                          text4         0024
+_TransferData                       (abs)         0073
+_UR0BRRL                            (abs)         0189
+_UR0CR1                             (abs)         0187
+_UR0CR2                             (abs)         0188
+_UR0DATH                            (abs)         0186
+_UR0DATL                            (abs)         0185
+_UR0STAT                            (abs)         019F
+_UR1BRRL                            (abs)         0094
+_UR1CR1                             (abs)         0092
+_UR1CR2                             (abs)         0093
+_UR1DATH                            (abs)         0091
+_UR1DATL                            (abs)         0090
+_UR1STAT                            (abs)         0095
+_WPUA                               (abs)         0094
+_WPUB                               (abs)         0095
+_WPUC                               (abs)         0096
+_WPUD                               (abs)         0097
+__Habs1                             abs1          0000
+__Hbank0                            bank0         0000
+__Hbank1                            bank1         0000
+__Hbank2                            bank2         0000
+__Hbank3                            bank3         0000
+__HbssBANK0ll                       bssBANK0ll    0000
+__HbssBANK1                         bssBANK1      0000
+__HbssCOMMONh                       bssCOMMONh    0000
+__Hcinit                            cinit         0024
+__Hclrtext                          clrtext       0000
+__Hcode                             code          0000
+__Hcommon                           common        0000
+__Hconfig                           config        0000
+__HcstackBANK0ll                    cstackBANK0ll 0000
+__HcstackCOMMONh                    cstackCOMMONh 0000
+__HcstackCOMMONl                    cstackCOMMONl 0000
+__Heeprom_data                      eeprom_data   0000
+__Hend_init                         end_init      000F
+__Hfunctab                          functab       0000
+__Hidloc                            idloc         0000
+__Hinit                             init          000C
+__Hintentry                         intentry      000C
+__Hmaintext                         maintext      0000
+__HnvBANK0ll                        nvBANK0ll     0000
+__Hpa_nodes0                        pa_nodes0     0000
+__Hpowerup                          powerup       0000
+__Hram                              ram           0000
+__Hreset_vec                        reset_vec     0003
+__Hsfr0                             sfr0          0000
+__Hsfr1                             sfr1          0000
+__Hsfr2                             sfr2          0000
+__Hsfr3                             sfr3          0000
+__Hspace_0                          (abs)         1000
+__Hspace_1                          (abs)         00B0
+__Hspace_2                          (abs)         0000
+__Hspace_3                          (abs)         0000
+__Hstack                            stack         0000
+__Hstrings                          strings       0000
+__Htext                             text          0000
+__Labs1                             abs1          0000
+__Lbank0                            bank0         0000
+__Lbank1                            bank1         0000
+__Lbank2                            bank2         0000
+__Lbank3                            bank3         0000
+__LbssBANK0ll                       bssBANK0ll    0000
+__LbssBANK1                         bssBANK1      0000
+__LbssCOMMONh                       bssCOMMONh    0000
+__Lcinit                            cinit         000F
+__Lclrtext                          clrtext       0000
+__Lcode                             code          0000
+__Lcommon                           common        0000
+__Lconfig                           config        0000
+__LcstackBANK0ll                    cstackBANK0ll 0000
+__LcstackCOMMONh                    cstackCOMMONh 0000
+__LcstackCOMMONl                    cstackCOMMONl 0000
+__Leeprom_data                      eeprom_data   0000
+__Lend_init                         end_init      000C
+__Lfunctab                          functab       0000
+__Lidloc                            idloc         0000
+__Linit                             init          000C
+__Lintentry                         intentry      0004
+__Lmaintext                         maintext      0000
+__LnvBANK0ll                        nvBANK0ll     0000
+__Lpa_nodes0                        pa_nodes0     0000
+__Lpowerup                          powerup       0000
+__Lram                              ram           0000
+__Lreset_vec                        reset_vec     0000
+__Lsfr0                             sfr0          0000
+__Lsfr1                             sfr1          0000
+__Lsfr2                             sfr2          0000
+__Lsfr3                             sfr3          0000
+__Lspace_0                          (abs)         0000
+__Lspace_1                          (abs)         0000
+__Lspace_2                          (abs)         0000
+__Lspace_3                          (abs)         0000
+__Lstack                            stack         0000
+__Lstrings                          strings       0000
+__Ltext                             text          0000
+__S0                                (abs)         1000
+__S1                                (abs)         00B0
+__S2                                (abs)         0000
+__S3                                (abs)         0000
+___int_sp                           stack         0000
+___latbits                          (abs)         0002
+___lbmod                            text4         0295
+___lbmod@counter                    cstackBANK0ll 0055
+___lbmod@dividend                   cstackBANK0ll 0054
+___lbmod@divisor                    cstackCOMMONh 0076
+___lbmod@rem                        cstackBANK0ll 0056
+___lwdiv                            text1         0548
+___lwdiv@counter                    cstackBANK0ll 0056
+___lwdiv@dividend                   cstackCOMMONh 0078
+___lwdiv@divisor                    cstackCOMMONh 0076
+___lwdiv@quotient                   cstackBANK0ll 0054
+___sp                               stack         0000
+___wmul                             text4         02B1
+___wmul@multiplicand                cstackCOMMONh 0078
+___wmul@multiplier                  cstackCOMMONh 0076
+___wmul@product                     cstackCOMMONl 007C
+__end_ofPL10                        text4         03EA
+__end_ofPL12                        text4         03F3
+__end_ofPL14                        text18        06F4
+__end_ofPL16                        text22        0F4F
+__end_ofPL18                        text1         058F
+__end_ofPL2                         text1         0580
+__end_ofPL20                        text18        06FB
+__end_ofPL22                        text4         03F9
+__end_ofPL24                        text1         0596
+__end_ofPL26                        text4         03FE
+__end_ofPL28                        text4         0404
+__end_ofPL30                        text4         040A
+__end_ofPL4                         text1         0588
+__end_ofPL6                         text4         03D4
+__end_ofPL8                         text4         03DF
+__end_of_ADC_INITIAL                text1         050C
+__end_of_ClearKeyBuff               text18        0658
+__end_of_DIV                        text4         0289
+__end_of_DelayMs                    text1         04EF
+__end_of_DelayUs                    text1         051B
+__end_of_FindTheSecondMin           text4         0348
+__end_of_FindTheThirdMax            text4         0362
+__end_of_GET_ADC_DATA               text1         0540
+__end_of_GetAddress                 text4         032E
+__end_of_GetKeyData                 text4         03B4
+__end_of_GetKeyVal                  text15        1000
+__end_of_GetLocalCount              text4         0295
+__end_of_ISR                        text38        0F6E
+__end_of_InfraRed_Check             text1         04D0
+__end_of_InfraRed_GET               text1         0474
+__end_of_InfraRed_ON                text27        0F41
+__end_of_Initialize_Communication   text26        0F8E
+__end_of_LEDB_ON                    text1         0548
+__end_of_LEDGB_FLASH                text1         0486
+__end_of_LEDG_ON                    text1         04D4
+__end_of_LEDR_ON                    text22        0F47
+__end_of_LEDW_ON                    text22        0F44
+__end_of_LED_OFF                    text1         04F3
+__end_of_Motor_OFF                  text1         0544
+__end_of_Motor_ON                   text1         04D8
+__end_of_ReadCap                    text18        06D2
+__end_of_SYS_INITIAL                text21        0FB1
+__end_of_SavKeyData                 text4         0319
+__end_of_SavKeyVal                  text4         03C8
+__end_of_SetTouchFreq               text18        06EB
+__end_of_TSC_DataProcessing         text18        059F
+__end_of_TSC_GetLocalKey            text15        0FE7
+__end_of_TSC_INITIAL                text18        0625
+__end_of_TSC_Start                  text4         0252
+__end_of___lbmod                    text4         02B1
+__end_of___lwdiv                    text1         0572
+__end_of___wmul                     text4         02CA
+__end_of__initialization            cinit         0020
+__end_of__stringtab                 strings       07C2
+__end_of_infraRed_Init              text1         045C
+__end_of_main                       maintext      07BC
+__end_of_stTouchIoMapArray          strings       07FA
+__end_of_ucActiveSensorDeltaArray   strings       07FC
+__end_of_ucFREQ_CHARGER_H           strings       07FE
+__end_of_ucInActiveSensorDeltaArray strings       07FB
+__end_of_ucKeyIndexMapArray         strings       07FD
+__end_of_ucMULTIPLE                 strings       07FF
+__initialization                    cinit         000F
+__pbssBANK0ll                       bssBANK0ll    0022
+__pbssBANK1                         bssBANK1      00A0
+__pbssCOMMONh                       bssCOMMONh    007A
+__pcstackBANK0ll                    cstackBANK0ll 0054
+__pcstackCOMMONh                    cstackCOMMONh 0074
+__pcstackCOMMONl                    cstackCOMMONl 007C
+__pintentry                         intentry      0004
+__pmaintext                         maintext      06FB
+__pnvBANK0ll                        nvBANK0ll     005C
+__pstrings                          strings       07BC
+__ptext1                            text1         040A
+__ptext10                           text4         032E
+__ptext11                           text4         0252
+__ptext12                           text18        059F
+__ptext13                           text4         02CA
+__ptext14                           text18        0625
+__ptext15                           text15        0FB1
+__ptext16                           text15        0FE7
+__ptext17                           text4         0319
+__ptext18                           text18        0596
+__ptext19                           text18        0658
+__ptext2                            text1         0548
+__ptext20                           text18        06D2
+__ptext21                           text21        0F8E
+__ptext22                           text22        0F41
+__ptext23                           text22        0F44
+__ptext24                           text1         0474
+__ptext25                           text1         0544
+__ptext26                           text26        0F6E
+__ptext27                           text27        0F33
+__ptext28                           text1         0486
+__ptext29                           text4         02B1
+__ptext3                            text1         045C
+__ptext30                           text1         04D4
+__ptext31                           text1         0540
+__ptext32                           text1         04EF
+__ptext33                           text1         04D0
+__ptext34                           text1         051B
+__ptext35                           text1         04D8
+__ptext36                           text1         04F3
+__ptext37                           text1         050C
+__ptext38                           text38        0F4F
+__ptext4                            text4         0024
+__ptext5                            text4         0295
+__ptext6                            text4         03B4
+__ptext7                            text4         0289
+__ptext8                            text4         0362
+__ptext9                            text4         0348
+__size_of_ADC_INITIAL               (abs)         0000
+__size_of_ClearKeyBuff              (abs)         0000
+__size_of_DIV                       (abs)         0000
+__size_of_DelayMs                   (abs)         0000
+__size_of_DelayUs                   (abs)         0000
+__size_of_FindTheSecondMin          (abs)         0000
+__size_of_FindTheThirdMax           (abs)         0000
+__size_of_GET_ADC_DATA              (abs)         0000
+__size_of_GetAddress                (abs)         0000
+__size_of_GetKeyData                (abs)         0000
+__size_of_GetKeyVal                 (abs)         0000
+__size_of_GetLocalCount             (abs)         0000
+__size_of_ISR                       (abs)         0000
+__size_of_InfraRed_Check            (abs)         0000
+__size_of_InfraRed_GET              (abs)         0000
+__size_of_InfraRed_ON               (abs)         0000
+__size_of_Initialize_Communication  (abs)         0000
+__size_of_LEDB_ON                   (abs)         0000
+__size_of_LEDGB_FLASH               (abs)         0000
+__size_of_LEDG_ON                   (abs)         0000
+__size_of_LEDR_ON                   (abs)         0000
+__size_of_LEDW_ON                   (abs)         0000
+__size_of_LED_OFF                   (abs)         0000
+__size_of_Motor_OFF                 (abs)         0000
+__size_of_Motor_ON                  (abs)         0000
+__size_of_ReadCap                   (abs)         0000
+__size_of_SYS_INITIAL               (abs)         0000
+__size_of_SavKeyData                (abs)         0000
+__size_of_SavKeyVal                 (abs)         0000
+__size_of_SetTouchFreq              (abs)         0000
+__size_of_TSC_DataProcessing        (abs)         0000
+__size_of_TSC_GetLocalKey           (abs)         0000
+__size_of_TSC_INITIAL               (abs)         0000
+__size_of_TSC_Start                 (abs)         0000
+__size_of___lbmod                   (abs)         0000
+__size_of___lwdiv                   (abs)         0000
+__size_of___wmul                    (abs)         0000
+__size_of_infraRed_Init             (abs)         0000
+__size_of_main                      (abs)         0000
+__stringbase                        strings       07C1
+__stringtab                         strings       07BC
+_bIEBackupsFlag                     (abs)         0107
+_bNoUpdataFlg                       (abs)         0100
+_bPresentDiscardFlag                (abs)         0102
+_bResonanceFlag                     (abs)         0101
+_bSleepEnable                       (abs)         0105
+_bSleepUpdataFlag                   (abs)         0106
+_bTestScanSetFlag                   (abs)         0103
+_bTestSleepFlag                     (abs)         0104
+_cidx                               (abs)         0021
+_coffset                            (abs)         006A
+_count                              bssBANK0ll    0038
+_data                               bssBANK0ll    0046
+_flag1                              bssBANK0ll    002E
+_infraRed_Init                      text1         040A
+_level                              bssBANK0ll    0030
+_level_high                         bssBANK0ll    0034
+_level_low                          bssBANK0ll    0032
+_main                               maintext      06FB
+_stTouchIoMapArray                  strings       07C2
+_strongest                          bssBANK0ll    0049
+_temp                               bssBANK0ll    0048
+_tscdata                            bssBANK1      00A0
+_ucActiveSensorDeltaArray           strings       07FB
+_ucAll_of_XCount                    bssBANK0ll    003D
+_ucChangeValue                      bssBANK0ll    0040
+_ucChangeValueMax1                  bssBANK0ll    003B
+_ucChangeValueMax2                  bssBANK0ll    003A
+_ucFreqChargeCount                  bssBANK0ll    0041
+_ucFreqIndex                        bssBANK0ll    0042
+_ucInActiveSensorDeltaArray         strings       07FA
+_ucKeyIndexMapArray                 strings       07FC
+_ucKeyMapNumber                     bssCOMMONh    007B
+_ucKeyPollingCount                  bssBANK0ll    003F
+_ucKeyPollingOk                     bssBANK0ll    003E
+_ucNull                             (abs)         0068
+_ucScanCount                        bssBANK0ll    003C
+_ucSetIndex                         (abs)         006F
+_ucSweepKeyNum                      bssBANK0ll    0044
+_ucTKFlag                           (abs)         0020
+_ucTempCount                        bssCOMMONh    007A
+_ucTempIndex                        bssBANK0ll    0043
+_uiChargeDataBuffer                 bssBANK0ll    0022
+_uiDefaultSysclk                    nvBANK0ll     005C
+_uiRX_t                             bssBANK0ll    0047
+_uiTemp1                            bssBANK0ll    002C
+_uiTemp2                            bssBANK0ll    002A
+_uiTemp3                            bssBANK0ll    0028
+_unTKData                           bssBANK0ll    004A
+_unTKData_temp                      (abs)         0068
+_val                                bssBANK0ll    0052
+_voltage                            bssBANK0ll    0036
+btemp                               (abs)         007E
+clear_ram0                          clrtext       0F2B
+end_of_initialization               cinit         0020
+infraRed_Init@i                     cstackBANK0ll 0057
+interrupt_function                  intentry      0004
+intlevel0                           functab       0000
+intlevel1                           functab       0000
+intlevel2                           functab       0000
+intlevel3                           functab       0000
+intlevel4                           functab       0000
+intlevel5                           functab       0000
+reset_vec                           reset_vec     0000
+saved_w                             (abs)         007E
+stackhi                             (abs)         0000
+stacklo                             (abs)         0000
+start                               init          000C
+start_initialization                cinit         000F
+wtemp0                              (abs)         007E
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 587 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               1    0        unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels required when called:    5
+ This function calls:
+		_ADC_INITIAL
+		_DelayMs
+		_InfraRed_Check
+		_InfraRed_GET
+		_InfraRed_ON
+		_Initialize_Communication
+		_LEDGB_FLASH
+		_LEDR_ON
+		_LEDW_ON
+		_LED_OFF
+		_SYS_INITIAL
+		_TSC_DataProcessing
+		_TSC_GetLocalKey
+		_TSC_INITIAL
+		_TSC_Start
+		_infraRed_Init
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _infraRed_Init *****************
+ Defined at:
+		line 497 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               2    3[BANK0l] int 
+ Return value:  Size  Location     Type
+                  2  2056[None  ] int 
+ Registers used:
+		wreg, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       2       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_InfraRed_GET
+		___lwdiv
+		___wmul
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwdiv *****************
+ Defined at:
+		line 6 in file "D:\Compiler\data\sources\common\lwdiv.c"
+ Parameters:    Size  Location     Type
+  divisor         2    2[COMMON] unsigned int 
+  dividend        2    4[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+  quotient        2    0[BANK0l] unsigned int 
+  counter         1    2[BANK0l] unsigned char 
+ Return value:  Size  Location     Type
+                  2    2[COMMON] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0       0
+      Locals:         0       0       3       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         4       0       3       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_infraRed_Init
+ This function uses a non-reentrant model
+
+
+ *************** function _InfraRed_GET *****************
+ Defined at:
+		line 460 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  2  2046[None  ] int 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_GET_ADC_DATA
+		___wmul
+ This function is called by:
+		_infraRed_Init
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _TSC_Start *****************
+ Defined at:
+		line 760 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       4       0       0       0
+      Totals:         0       0       4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_DIV
+		_FindTheSecondMin
+		_FindTheThirdMax
+		_GetKeyData
+		_GetLocalCount
+		_ReadCap
+		_SavKeyData
+		_SavKeyVal
+		___lbmod
+		___wmul
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function ___lbmod *****************
+ Defined at:
+		line 4 in file "D:\Compiler\data\sources\common\lbmod.c"
+ Parameters:    Size  Location     Type
+  dividend        1    wreg     unsigned char 
+  divisor         1    2[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  dividend        1    0[BANK0l] unsigned char 
+  rem             1    2[BANK0l] unsigned char 
+  counter         1    1[BANK0l] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0       0
+      Locals:         0       0       3       0       0       0
+      Temps:          1       0       0       0       0       0
+      Totals:         2       0       3       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_TSC_Start
+ This function uses a non-reentrant model
+
+
+ *************** function _SavKeyVal *****************
+ Defined at:
+		line 1759 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_GetAddress
+ This function is called by:
+		_TSC_Start
+ This function uses a non-reentrant model
+
+
+ *************** function _GetLocalCount *****************
+ Defined at:
+		line 698 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_TSC_Start
+ This function uses a non-reentrant model
+
+
+ *************** function _GetKeyData *****************
+ Defined at:
+		line 1910 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_GetAddress
+ This function is called by:
+		_TSC_Start
+ This function uses a non-reentrant model
+
+
+ *************** function _FindTheThirdMax *****************
+ Defined at:
+		line 710 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_TSC_Start
+ This function uses a non-reentrant model
+
+
+ *************** function _FindTheSecondMin *****************
+ Defined at:
+		line 738 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_TSC_Start
+ This function uses a non-reentrant model
+
+
+ *************** function _DIV *****************
+ Defined at:
+		line 377 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_TSC_Start
+ This function uses a non-reentrant model
+
+
+ *************** function _TSC_INITIAL *****************
+ Defined at:
+		line 569 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       3       0       0       0
+      Totals:         0       0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_ClearKeyBuff
+		_ReadCap
+		_SavKeyData
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _SavKeyData *****************
+ Defined at:
+		line 1993 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_GetAddress
+ This function is called by:
+		_TSC_INITIAL
+		_TSC_Start
+ This function uses a non-reentrant model
+
+
+ *************** function _ClearKeyBuff *****************
+ Defined at:
+		line 1857 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_TSC_INITIAL
+ This function uses a non-reentrant model
+
+
+ *************** function _TSC_GetLocalKey *****************
+ Defined at:
+		line 1580 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  ulTKeyOutSin    4    4[BANK0l] unsigned long 
+ Return value:  Size  Location     Type
+                  4    2[COMMON] unsigned long 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0       0
+      Locals:         0       0       4       0       0       0
+      Temps:          0       0       4       0       0       0
+      Totals:         4       0       8       0       0       0
+Total ram usage:       12 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_GetKeyVal
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _GetKeyVal *****************
+ Defined at:
+		line 1721 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_GetAddress
+ This function is called by:
+		_TSC_GetLocalKey
+ This function uses a non-reentrant model
+
+
+ *************** function _GetAddress *****************
+ Defined at:
+		line 1792 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_GetKeyVal
+		_SavKeyVal
+		_GetKeyData
+		_SavKeyData
+ This function uses a non-reentrant model
+
+
+ *************** function _TSC_DataProcessing *****************
+ Defined at:
+		line 1084 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_ReadCap
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _ReadCap *****************
+ Defined at:
+		line 493 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  channel         2    0[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0
+      Temps:          3       0       0       0       0       0
+      Totals:         3       2       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_SetTouchFreq
+ This function is called by:
+		_TSC_INITIAL
+		_TSC_Start
+		_TSC_DataProcessing
+ This function uses a non-reentrant model
+
+
+ *************** function _SetTouchFreq *****************
+ Defined at:
+		line 465 in file "touch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_ReadCap
+ This function uses a non-reentrant model
+
+
+ *************** function _SYS_INITIAL *****************
+ Defined at:
+		line 177 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _LEDW_ON *****************
+ Defined at:
+		line 292 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _LEDR_ON *****************
+ Defined at:
+		line 316 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _LEDGB_FLASH *****************
+ Defined at:
+		line 379 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_DelayMs
+		_LEDB_ON
+		_LEDG_ON
+		_LED_OFF
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _LEDB_ON *****************
+ Defined at:
+		line 329 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_LEDGB_FLASH
+ This function uses a non-reentrant model
+
+
+ *************** function _Initialize_Communication *****************
+ Defined at:
+		line 133 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _InfraRed_ON *****************
+ Defined at:
+		line 404 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _InfraRed_Check *****************
+ Defined at:
+		line 470 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  2  2049[None  ] int 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_DelayMs
+		_GET_ADC_DATA
+		_LEDG_ON
+		_LED_OFF
+		_Motor_OFF
+		_Motor_ON
+		___wmul
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function ___wmul *****************
+ Defined at:
+		line 15 in file "D:\Compiler\data\sources\common\Umul16.c"
+ Parameters:    Size  Location     Type
+  multiplier      2    2[COMMON] unsigned int 
+  multiplicand    2    4[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+  product         2    0[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+                  2    2[COMMON] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0       0
+      Locals:         0       2       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         4       2       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_InfraRed_GET
+		_InfraRed_Check
+		_infraRed_Init
+		_TSC_Start
+ This function uses a non-reentrant model
+
+
+ *************** function _Motor_ON *****************
+ Defined at:
+		line 390 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_InfraRed_Check
+ This function uses a non-reentrant model
+
+
+ *************** function _Motor_OFF *****************
+ Defined at:
+		line 396 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_InfraRed_Check
+ This function uses a non-reentrant model
+
+
+ *************** function _LED_OFF *****************
+ Defined at:
+		line 355 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_LEDGB_FLASH
+		_InfraRed_Check
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _LEDG_ON *****************
+ Defined at:
+		line 341 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_LEDGB_FLASH
+		_InfraRed_Check
+ This function uses a non-reentrant model
+
+
+ *************** function _GET_ADC_DATA *****************
+ Defined at:
+		line 266 in file "main.C"
+ Parameters:    Size  Location     Type
+  adcChannel      1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  adcChannel      1    1[BANK0l] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] unsigned int 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       2       0       0       0       0
+      Locals:         0       0       1       0       0       0
+      Temps:          0       0       1       0       0       0
+      Totals:         0       2       2       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_DelayUs
+ This function is called by:
+		_InfraRed_GET
+		_InfraRed_Check
+ This function uses a non-reentrant model
+
+
+ *************** function _DelayMs *****************
+ Defined at:
+		line 78 in file "main.C"
+ Parameters:    Size  Location     Type
+  Time            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  Time            1    0[BANK0l] unsigned char 
+  b               1    2[BANK0l] unsigned char 
+  a               1    1[BANK0l] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       3       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_DelayUs
+ This function is called by:
+		_LEDGB_FLASH
+		_InfraRed_Check
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _ADC_INITIAL *****************
+ Defined at:
+		line 245 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_DelayUs
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _DelayUs *****************
+ Defined at:
+		line 63 in file "main.C"
+ Parameters:    Size  Location     Type
+  Time            2    2[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+  a               2    4[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0       0
+      Locals:         2       0       0       0       0       0
+      Temps:          0       0       0       0       0       0
+      Totals:         4       0       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_DelayMs
+		_ADC_INITIAL
+		_GET_ADC_DATA
+ This function uses a non-reentrant model
+
+
+ *************** function _ISR *****************
+ Defined at:
+		line 99 in file "main.C"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:    COMMONh COMMONl BANK0ll   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0
+      Totals:         2       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		Interrupt level 1
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+touch.c
+		_DIV           		CODE           	0252	0000	56
+		_TSC_GetLocalKey		CODE           	0FB1	0000	55
+		_FindTheSecondMin		CODE           	032E	0000	27
+		_GetKeyData    		CODE           	0362	0000	83
+		_TSC_DataProcessing		CODE           	0596	0000	10
+		_SavKeyData    		CODE           	02CA	0000	80
+		_TSC_INITIAL   		CODE           	059F	0000	135
+		_GetLocalCount 		CODE           	0289	0000	13
+		_GetKeyVal     		CODE           	0FE7	0000	26
+		_GetAddress    		CODE           	0319	0000	22
+		_FindTheThirdMax		CODE           	0348	0000	27
+		_TSC_Start     		CODE           	0024	0000	559
+		_SavKeyVal     		CODE           	03B4	0000	21
+		_ClearKeyBuff  		CODE           	0625	0000	52
+		_ReadCap       		CODE           	0658	0000	123
+		_SetTouchFreq  		CODE           	06D2	0000	26
+
+touch.c estimated size: 1315
+
+D:\Compiler\data\sources\common\lwdiv.c
+		___lwdiv       		CODE           	0548	0000	43
+
+D:\Compiler\data\sources\common\lwdiv.c estimated size: 43
+
+D:\Compiler\data\sources\common\Umul16.c
+		___wmul        		CODE           	02B1	0000	26
+
+D:\Compiler\data\sources\common\Umul16.c estimated size: 26
+
+D:\Compiler\data\sources\common\lbmod.c
+		___lbmod       		CODE           	0295	0000	29
+
+D:\Compiler\data\sources\common\lbmod.c estimated size: 29
+
+shared
+		PL12           		CODE           	03EA	0000	10
+		PL8            		CODE           	03D4	0000	12
+		_ucActiveSensorDeltaArray		STRING         	07FB	0000	2
+		PL22           		CODE           	03F3	0000	7
+		_stTouchIoMapArray		STRING         	07C2	0000	57
+		PL14           		CODE           	06EB	0000	10
+		PL24           		CODE           	058F	0000	8
+		__stringtab    		STRING         	07BC	0000	7
+		PL16           		CODE           	0F47	0000	9
+		PL26           		CODE           	03F9	0000	6
+		PL18           		CODE           	0588	0000	8
+		_ucMULTIPLE    		STRING         	0000	0000	0
+		PL28           		CODE           	03FE	0000	7
+		_ucInActiveSensorDeltaArray		STRING         	07FA	0000	2
+		_ucFREQ_CHARGER_H		STRING         	0000	0000	0
+		__initialization		CODE           	000F	0000	18
+		_ucKeyIndexMapArray		STRING         	07FC	0000	2
+		PL2            		CODE           	0572	0000	15
+		PL10           		CODE           	03DF	0000	12
+		PL4            		CODE           	0580	0000	9
+		PL20           		CODE           	06F4	0000	8
+		PL30           		CODE           	0404	0000	7
+		PL6            		CODE           	03C8	0000	13
+
+shared estimated size: 229
+
+main.C
+		_InfraRed_Check		CODE           	0486	0000	75
+		_Initialize_Communication		CODE           	0F6E	0000	33
+		_DelayUs       		CODE           	050C	0000	16
+		_LEDB_ON       		CODE           	0544	0000	5
+		_ISR           		CODE           	0F4F	0000	32
+		_SYS_INITIAL   		CODE           	0F8E	0000	36
+		_infraRed_Init 		CODE           	040A	0000	83
+		_LED_OFF       		CODE           	04EF	0000	5
+		_main          		CODE           	06FB	0000	194
+		_DelayMs       		CODE           	04D8	0000	24
+		_Motor_ON      		CODE           	04D4	0000	5
+		_Motor_OFF     		CODE           	0540	0000	5
+		_LEDR_ON       		CODE           	0F44	0000	4
+		_LEDG_ON       		CODE           	04D0	0000	5
+		_LEDGB_FLASH   		CODE           	0474	0000	19
+		_GET_ADC_DATA  		CODE           	051B	0000	38
+		_InfraRed_ON   		CODE           	0F33	0000	15
+		_InfraRed_GET  		CODE           	045C	0000	25
+		_ADC_INITIAL   		CODE           	04F3	0000	26
+		_LEDW_ON       		CODE           	0F41	0000	4
+
+main.C estimated size: 649
+

@@ -1,0 +1,676 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC RSC14 PICREGULAR PICMID SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip FT62F28X ]
+[d frameptr 6 ]
+"218 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\uart.c
+[e E2985 . `uc
+IDLE_STA 0
+DATA_STA 1
+STOP_ERROR_STA 2
+]
+"467 touch.c
+[e E2986 Frequent `uc
+F_4M 0
+F_3d8M 1
+F_4M_END 2
+]
+"713
+[e E2990 ChargeDataBufferIndex `uc
+Index0 0
+Index1 1
+IndexMax 2
+]
+"977
+[e E2994 . `uc
+RESET 0
+SET 1
+]
+"62 D:\Compiler\data\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Compiler\data\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 D:\Compiler\data\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"6 D:\Compiler\data\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 D:\Compiler\data\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"15 D:\Compiler\data\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"63 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\main.C
+[v _DelayUs DelayUs `(v  1 e 1 0 ]
+"78
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+"99
+[v _ISR ISR `II(v  1 e 1 0 ]
+"133
+[v _Initialize_Communication Initialize_Communication `(v  1 e 1 0 ]
+"177
+[v _SYS_INITIAL SYS_INITIAL `(v  1 e 1 0 ]
+"245
+[v _ADC_INITIAL ADC_INITIAL `(v  1 e 1 0 ]
+"266
+[v _GET_ADC_DATA GET_ADC_DATA `(ui  1 e 2 0 ]
+"292
+[v _LEDW_ON LEDW_ON `(v  1 e 1 0 ]
+"316
+[v _LEDR_ON LEDR_ON `(v  1 e 1 0 ]
+"329
+[v _LEDB_ON LEDB_ON `(v  1 e 1 0 ]
+"341
+[v _LEDG_ON LEDG_ON `(v  1 e 1 0 ]
+"355
+[v _LED_OFF LED_OFF `(v  1 e 1 0 ]
+"379
+[v _LEDGB_FLASH LEDGB_FLASH `(v  1 e 1 0 ]
+"390
+[v _Motor_ON Motor_ON `(v  1 e 1 0 ]
+"396
+[v _Motor_OFF Motor_OFF `(v  1 e 1 0 ]
+"404
+[v _InfraRed_ON InfraRed_ON `(v  1 e 1 0 ]
+"460
+[v _InfraRed_GET InfraRed_GET `(i  1 e 2 0 ]
+"470
+[v _InfraRed_Check InfraRed_Check `(i  1 e 2 0 ]
+"497
+[v _infraRed_Init infraRed_Init `(i  1 e 2 0 ]
+"587
+[v _main main `(v  1 e 1 0 ]
+"377 touch.c
+[v _DIV DIV `(v  1 e 1 0 ]
+"465
+[v _SetTouchFreq SetTouchFreq `(v  1 e 1 0 ]
+"493
+[v _ReadCap ReadCap `(v  1 e 1 0 ]
+"569
+[v _TSC_INITIAL TSC_INITIAL `(v  1 e 1 0 ]
+"647
+[v _ReStartDetect ReStartDetect `(v  1 e 1 0 ]
+"698
+[v _GetLocalCount GetLocalCount `(v  1 e 1 0 ]
+"710
+[v _FindTheThirdMax FindTheThirdMax `(v  1 e 1 0 ]
+"738
+[v _FindTheSecondMin FindTheSecondMin `(v  1 e 1 0 ]
+"760
+[v _TSC_Start TSC_Start `(v  1 e 1 0 ]
+"1084
+[v _TSC_DataProcessing TSC_DataProcessing `(uc  1 e 1 0 ]
+"1580
+[v _TSC_GetLocalKey TSC_GetLocalKey `(ul  1 e 4 0 ]
+"1721
+[v _GetKeyVal GetKeyVal `(v  1 e 1 0 ]
+"1759
+[v _SavKeyVal SavKeyVal `(v  1 e 1 0 ]
+"1792
+[v _GetAddress GetAddress `(v  1 e 1 0 ]
+"1857
+[v _ClearKeyBuff ClearKeyBuff `(v  1 e 1 0 ]
+"1910
+[v _GetKeyData GetKeyData `(v  1 e 1 0 ]
+"1993
+[v _SavKeyData SavKeyData `(v  1 e 1 0 ]
+"36 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\uart.c
+[v _DEC2ASC DEC2ASC `(uc  1 e 1 0 ]
+"85
+[v _uart_delay uart_delay `(v  1 e 1 0 ]
+"99
+[v _uart_tx uart_tx `(v  1 e 1 0 ]
+"362
+[v _ConmunicateToPc ConmunicateToPc `(v  1 e 1 0 ]
+"7 D:\Program Files (x86)\CCompiler\Compiler\data\include\FT62F28X.h
+[v _INDF INDF `VEuc  1 e 1 @0 ]
+"11
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"19
+[v _STATUS STATUS `VEuc  1 e 1 @3 ]
+"63
+[v _FSR FSR `VEuc  1 e 1 @4 ]
+"67
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"84
+[v _PA6 PA6 `VEb  1 e 0 @46 ]
+"119
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"130
+[v _PB0 PB0 `VEb  1 e 0 @48 ]
+"132
+[v _PB2 PB2 `VEb  1 e 0 @50 ]
+"133
+[v _PB3 PB3 `VEb  1 e 0 @51 ]
+"136
+[v _PB6 PB6 `VEb  1 e 0 @54 ]
+"170
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"183
+[v _PC2 PC2 `VEb  1 e 0 @58 ]
+"221
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"234
+[v _PD4 PD4 `VEb  1 e 0 @68 ]
+"289
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"323
+[v _LVDIF LVDIF `VEb  1 e 0 @101 ]
+"597
+[v _OPTION OPTION `VEuc  1 e 1 @129 ]
+"626
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"634
+[v _TRISA6 TRISA6 `VEb  1 e 0 @1070 ]
+"655
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"657
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"659
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1074 ]
+"660
+[v _TRISB3 TRISB3 `VEb  1 e 0 @1075 ]
+"663
+[v _TRISB6 TRISB6 `VEb  1 e 0 @1078 ]
+"684
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"688
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"713
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"719
+[v _TRISD4 TRISD4 `VEb  1 e 0 @1092 ]
+"761
+[v _LVDIE LVDIE `VEb  1 e 0 @1125 ]
+"805
+[v _PCON PCON `VEuc  1 e 1 @142 ]
+"836
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"866
+[v _UR1DATL UR1DATL `VEuc  1 e 1 @144 ]
+"870
+[v _UR1DATH UR1DATH `VEuc  1 e 1 @145 ]
+"873
+[v _UR1CR1 UR1CR1 `VEuc  1 e 1 @146 ]
+"899
+[v _UR1CR2 UR1CR2 `VEuc  1 e 1 @147 ]
+"929
+[v _UR1BRRL UR1BRRL `VEuc  1 e 1 @148 ]
+"933
+[v _UR1STAT UR1STAT `VEuc  1 e 1 @149 ]
+"1164
+[v _MSCON1 MSCON1 `VEuc  1 e 1 @257 ]
+"1167
+[v _AUXPGE AUXPGE `VEb  1 e 0 @2057 ]
+"1183
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @261 ]
+"1188
+[v _T0ON T0ON `VEb  1 e 0 @2091 ]
+"1216
+[v _T1CON0 T1CON0 `VEuc  1 e 1 @262 ]
+"1220
+[v _T1ON T1ON `VEb  1 e 0 @2098 ]
+"1245
+[v _PR0 PR0 `VEuc  1 e 1 @263 ]
+"1250
+[v _T0DUTY T0DUTY `VEuc  1 e 1 @264 ]
+"1254
+[v _FOSCCALL FOSCCALL `VEuc  1 e 1 @265 ]
+"1279
+[v _MSCON2 MSCON2 `VEuc  1 e 1 @269 ]
+"1341
+[v _ADRESL ADRESL `VEuc  1 e 1 @273 ]
+"1346
+[v _ADRESH ADRESH `VEuc  1 e 1 @274 ]
+"1350
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @275 ]
+"1352
+[v _ADON ADON `VEb  1 e 0 @2200 ]
+"1353
+[v _GO_DONE GO_DONE `VEb  1 e 0 @2201 ]
+"1380
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @276 ]
+"1444
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @278 ]
+"1464
+[v _PR1L PR1L `VEuc  1 e 1 @279 ]
+"1468
+[v _PR1H PR1H `VEuc  1 e 1 @280 ]
+"1472
+[v _TMR1L TMR1L `VEuc  1 e 1 @281 ]
+"1476
+[v _TMR1H TMR1H `VEuc  1 e 1 @282 ]
+"1480
+[v _TKCON0 TKCON0 `VEuc  1 e 1 @283 ]
+"1508
+[v _TKEN0 TKEN0 `VEuc  1 e 1 @284 ]
+"1537
+[v _TKEN1 TKEN1 `VEuc  1 e 1 @285 ]
+"1570
+[v _ANSEL1 ANSEL1 `VEuc  1 e 1 @287 ]
+"1577
+[v _UR0DATL UR0DATL `VEuc  1 e 1 @389 ]
+"1581
+[v _UR0DATH UR0DATH `VEuc  1 e 1 @390 ]
+"1585
+[v _UR0CR1 UR0CR1 `VEuc  1 e 1 @391 ]
+"1611
+[v _UR0CR2 UR0CR2 `VEuc  1 e 1 @392 ]
+"1641
+[v _UR0BRRL UR0BRRL `VEuc  1 e 1 @393 ]
+"1645
+[v _SPIDAT SPIDAT `VEuc  1 e 1 @396 ]
+"1649
+[v _SPICR0 SPICR0 `VEuc  1 e 1 @397 ]
+"1672
+[v _SPICFG SPICFG `VEuc  1 e 1 @398 ]
+"1699
+[v _SPISCR SPISCR `VEuc  1 e 1 @399 ]
+"1704
+[v _SPICRCP SPICRCP `VEuc  1 e 1 @400 ]
+"1708
+[v _SPIRXCRC SPIRXCRC `VEuc  1 e 1 @401 ]
+"1712
+[v _SPITXCRC SPITXCRC `VEuc  1 e 1 @402 ]
+"1717
+[v _SPIIER SPIIER `VEuc  1 e 1 @403 ]
+"1736
+[v _SPICR1 SPICR1 `VEuc  1 e 1 @404 ]
+"1763
+[v _SPISTAT SPISTAT `VEuc  1 e 1 @405 ]
+"1786
+[v _I2CCR1 I2CCR1 `VEuc  1 e 1 @406 ]
+"1811
+[v _I2CCR2 I2CCR2 `VEuc  1 e 1 @407 ]
+"1833
+[v _I2CADDR I2CADDR `VEuc  1 e 1 @408 ]
+"1837
+[v _I2CCCR I2CCCR `VEuc  1 e 1 @409 ]
+"1841
+[v _I2CDAT I2CDAT `VEuc  1 e 1 @410 ]
+"1845
+[v _TKEN2 TKEN2 `VEuc  1 e 1 @412 ]
+"1874
+[v _TKEN3 TKEN3 `VEuc  1 e 1 @413 ]
+"1903
+[v _I2CISR I2CISR `VEuc  1 e 1 @414 ]
+"1934
+[v _UR0STAT UR0STAT `VEuc  1 e 1 @415 ]
+"2439
+[v _LVDCON LVDCON `VEuc  1 e 1 @26 ]
+"2754
+[v _WPUA WPUA `VEuc  1 e 1 @148 ]
+"2783
+[v _WPUB WPUB `VEuc  1 e 1 @149 ]
+"2813
+[v _WPUC WPUC `VEuc  1 e 1 @150 ]
+"2843
+[v _WPUD WPUD `VEuc  1 e 1 @151 ]
+"2972
+[v _FOSCCALH FOSCCALH `VEuc  1 e 1 @265 ]
+"33 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\main.C
+[v _strongest strongest `uc  1 e 1 0 ]
+"36
+[v _count count `ui  1 e 2 0 ]
+[v _val val `ui  1 e 2 0 ]
+[v _voltage voltage `ui  1 e 2 0 ]
+[v _level_high level_high `ui  1 e 2 0 ]
+[v _level_low level_low `ui  1 e 2 0 ]
+[v _level level `ui  1 e 2 0 ]
+"37
+[v _flag1 flag1 `VEi  1 e 2 0 ]
+"38
+[v _temp temp `uc  1 e 1 0 ]
+"291
+[v _tscdata tscdata `VE[8]ui  1 e 16 0 ]
+"147 touch.c
+[v _ucTKFlag ucTKFlag `VEuc  1 e 1 @32 ]
+"148
+[v _bNoUpdataFlg bNoUpdataFlg `VEb  1 e 0 @256 ]
+"149
+[v _bResonanceFlag bResonanceFlag `VEb  1 e 0 @257 ]
+"150
+[v _bPresentDiscardFlag bPresentDiscardFlag `VEb  1 e 0 @258 ]
+"151
+[v _bTestScanSetFlag bTestScanSetFlag `VEb  1 e 0 @259 ]
+"152
+[v _bTestSleepFlag bTestSleepFlag `VEb  1 e 0 @260 ]
+"153
+[v _bSleepEnable bSleepEnable `VEb  1 e 0 @261 ]
+"154
+[v _bSleepUpdataFlag bSleepUpdataFlag `VEb  1 e 0 @262 ]
+"155
+[v _bIEBackupsFlag bIEBackupsFlag `VEb  1 e 0 @263 ]
+[s S9264 . 2 `uc 1 tr 1 0 `uc 1 b 1 1 ]
+"161
+[v _stTouchIoMapArray stTouchIoMapArray `DC[28]S9264  1 e 56 0 ]
+"199
+[v _uiDefaultSysclk uiDefaultSysclk `VEui  1 e 2 0 ]
+"203
+[v _cidx cidx `uc  1 e 1 @33 ]
+"204
+[v _FsrBackup FsrBackup `uc  1 e 1 0 ]
+"205
+[v _coffset coffset `uc  1 e 1 @106 ]
+"206
+[v _ucSetIndex ucSetIndex `VEuc  1 e 1 @111 ]
+"207
+[v _ucNull ucNull `VEuc  1 e 1 @104 ]
+"209
+[v _OriginalData OriginalData `ui  1 s 2 OriginalData ]
+"210
+[v _ReferenceData ReferenceData `ui  1 s 2 ReferenceData ]
+"211
+[v _ResultData ResultData `ui  1 s 2 ResultData ]
+"212
+[v _ReferenceDataL ReferenceDataL `uc  1 s 1 ReferenceDataL ]
+"213
+[v _ReferenceDataH ReferenceDataH `uc  1 s 1 ReferenceDataH ]
+"214
+[v _ResultDataL ResultDataL `uc  1 s 1 ResultDataL ]
+"215
+[v _ResultDataH ResultDataH `uc  1 s 1 ResultDataH ]
+"218
+[v _uiChargeDataBuffer uiChargeDataBuffer `[3]ui  1 e 6 0 ]
+[s S9267 . 2 `uc 1 Last_Data_L 1 0 :8:0 
+`uc 1 Last_Data_H 1 1 :3:0 
+`uc 1 . 1 1 :4:3 
+`uc 1 Local_Key 1 1 :1:7 
+]
+"244
+[s S9272 . 2 `uc 1 BL_L 1 0 :8:0 
+`uc 1 BL_H 1 1 :3:0 
+`uc 1 Local_Filter 1 1 :5:3 
+]
+[s S9276 . 8 `uc 1 UpDown_Counter 1 0 `uc 1 ucCatchup 1 1 `S9267 1 ucLastdata 2 2 `S9272 1 uiLCF_BL 2 4 `ui 1 uiPrevData 2 6 ]
+[u S9282 stTK_Type 8 `S9276 1 stTK_Data 8 0 `[4]ui 1 uiTKData 8 0 ]
+[v _unTKData_temp unTKData_temp `S9282  1 e 8 @104 ]
+"245
+[v _unTKData unTKData `S9282  1 e 8 0 ]
+"263
+[v _ucSweepKeyNum ucSweepKeyNum `uc  1 e 1 0 ]
+"264
+[v _ucKeyMapNumber ucKeyMapNumber `uc  1 e 1 0 ]
+"265
+[v _ucTempCount ucTempCount `uc  1 e 1 0 ]
+"266
+[v _ucTempIndex ucTempIndex `uc  1 e 1 0 ]
+"267
+[v _ucFreqIndex ucFreqIndex `uc  1 e 1 0 ]
+"268
+[v _ucFreqChargeCount ucFreqChargeCount `uc  1 e 1 0 ]
+"269
+[v _ucChangeValue ucChangeValue `uc  1 e 1 0 ]
+"270
+[v _ucKeyPollingCount ucKeyPollingCount `uc  1 e 1 0 ]
+"271
+[v _ucKeyPollingOk ucKeyPollingOk `uc  1 e 1 0 ]
+"272
+[v _ucAll_of_XCount ucAll_of_XCount `uc  1 e 1 0 ]
+"273
+[v _ucScanCount ucScanCount `uc  1 e 1 0 ]
+"275
+[v _uiTemp1 uiTemp1 `ui  1 e 2 0 ]
+"276
+[v _uiTemp2 uiTemp2 `ui  1 e 2 0 ]
+"277
+[v _uiTemp3 uiTemp3 `ui  1 e 2 0 ]
+"279
+[v _ucChangeValueMax1 ucChangeValueMax1 `uc  1 e 1 0 ]
+"280
+[v _ucChangeValueMax2 ucChangeValueMax2 `uc  1 e 1 0 ]
+"460
+[v _ResultData2 ResultData2 `ui  1 s 2 ResultData2 ]
+"461
+[v _ResultData2L ResultData2L `uc  1 s 1 ResultData2L ]
+"462
+[v _ResultData2H ResultData2H `uc  1 s 1 ResultData2H ]
+"463
+[v _TransferData TransferData `uc  1 s 1 TransferData ]
+"188 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\touch.h
+[v _ucKeyIndexMapArray ucKeyIndexMapArray `DC[1]uc  1 e 1 0 ]
+"195
+[v _ucActiveSensorDeltaArray ucActiveSensorDeltaArray `DC[1]uc  1 e 1 0 ]
+"201
+[v _ucInActiveSensorDeltaArray ucInActiveSensorDeltaArray `DC[1]uc  1 e 1 0 ]
+"33 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\uart.c
+[v _uiRX_t uiRX_t `VEuc  1 e 1 0 ]
+"34
+[v _data data `VEuc  1 e 1 0 ]
+"587 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\main.C
+[v _main main `(v  1 e 1 0 ]
+{
+"650
+} 0
+"497
+[v _infraRed_Init infraRed_Init `(i  1 e 2 0 ]
+{
+"502
+[v infraRed_Init@i i `i  1 a 2 3 ]
+"515
+} 0
+"6 D:\Compiler\data\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 0 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 2 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 4 ]
+"31
+} 0
+"460 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\main.C
+[v _InfraRed_GET InfraRed_GET `(i  1 e 2 0 ]
+{
+"466
+} 0
+"760 touch.c
+[v _TSC_Start TSC_Start `(v  1 e 1 0 ]
+{
+"1075
+} 0
+"4 D:\Compiler\data\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 2 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 1 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 2 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 0 ]
+"18
+} 0
+"1759 touch.c
+[v _SavKeyVal SavKeyVal `(v  1 e 1 0 ]
+{
+"1782
+} 0
+"698
+[v _GetLocalCount GetLocalCount `(v  1 e 1 0 ]
+{
+"709
+} 0
+"1910
+[v _GetKeyData GetKeyData `(v  1 e 1 0 ]
+{
+"1982
+} 0
+"710
+[v _FindTheThirdMax FindTheThirdMax `(v  1 e 1 0 ]
+{
+"731
+} 0
+"738
+[v _FindTheSecondMin FindTheSecondMin `(v  1 e 1 0 ]
+{
+"759
+} 0
+"377
+[v _DIV DIV `(v  1 e 1 0 ]
+{
+"448
+} 0
+"569
+[v _TSC_INITIAL TSC_INITIAL `(v  1 e 1 0 ]
+{
+"645
+} 0
+"1993
+[v _SavKeyData SavKeyData `(v  1 e 1 0 ]
+{
+"2067
+} 0
+"1857
+[v _ClearKeyBuff ClearKeyBuff `(v  1 e 1 0 ]
+{
+"1899
+} 0
+"1580
+[v _TSC_GetLocalKey TSC_GetLocalKey `(ul  1 e 4 0 ]
+{
+"1582
+[v TSC_GetLocalKey@ulTKeyOutSingle ulTKeyOutSingle `ul  1 a 4 4 ]
+"1594
+} 0
+"1721
+[v _GetKeyVal GetKeyVal `(v  1 e 1 0 ]
+{
+"1747
+} 0
+"1792
+[v _GetAddress GetAddress `(v  1 e 1 0 ]
+{
+"1818
+} 0
+"1084
+[v _TSC_DataProcessing TSC_DataProcessing `(uc  1 e 1 0 ]
+{
+"1173
+} 0
+"493
+[v _ReadCap ReadCap `(v  1 e 1 0 ]
+{
+"495
+[v ReadCap@channel channel `ui  1 a 2 0 ]
+"559
+} 0
+"465
+[v _SetTouchFreq SetTouchFreq `(v  1 e 1 0 ]
+{
+"481
+} 0
+"177 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\main.C
+[v _SYS_INITIAL SYS_INITIAL `(v  1 e 1 0 ]
+{
+"219
+} 0
+"292
+[v _LEDW_ON LEDW_ON `(v  1 e 1 0 ]
+{
+"313
+} 0
+"316
+[v _LEDR_ON LEDR_ON `(v  1 e 1 0 ]
+{
+"326
+} 0
+"379
+[v _LEDGB_FLASH LEDGB_FLASH `(v  1 e 1 0 ]
+{
+"387
+} 0
+"329
+[v _LEDB_ON LEDB_ON `(v  1 e 1 0 ]
+{
+"339
+} 0
+"133
+[v _Initialize_Communication Initialize_Communication `(v  1 e 1 0 ]
+{
+"166
+} 0
+"404
+[v _InfraRed_ON InfraRed_ON `(v  1 e 1 0 ]
+{
+"457
+} 0
+"470
+[v _InfraRed_Check InfraRed_Check `(i  1 e 2 0 ]
+{
+"494
+} 0
+"15 D:\Compiler\data\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 0 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
+"53
+} 0
+"390 C:\Users\AnnaSennpai\Desktop\newtey\touchlib_6015\main.C
+[v _Motor_ON Motor_ON `(v  1 e 1 0 ]
+{
+"394
+} 0
+"396
+[v _Motor_OFF Motor_OFF `(v  1 e 1 0 ]
+{
+"400
+} 0
+"355
+[v _LED_OFF LED_OFF `(v  1 e 1 0 ]
+{
+"376
+} 0
+"341
+[v _LEDG_ON LEDG_ON `(v  1 e 1 0 ]
+{
+"351
+} 0
+"266
+[v _GET_ADC_DATA GET_ADC_DATA `(ui  1 e 2 0 ]
+{
+[v GET_ADC_DATA@adcChannel adcChannel `uc  1 a 1 wreg ]
+[v GET_ADC_DATA@adcChannel adcChannel `uc  1 a 1 wreg ]
+"268
+[v GET_ADC_DATA@adcChannel adcChannel `uc  1 a 1 1 ]
+"279
+} 0
+"78
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+{
+[v DelayMs@Time Time `uc  1 a 1 wreg ]
+"80
+[v DelayMs@b b `uc  1 a 1 2 ]
+[v DelayMs@a a `uc  1 a 1 1 ]
+"78
+[v DelayMs@Time Time `uc  1 a 1 wreg ]
+"81
+[v DelayMs@Time Time `uc  1 a 1 0 ]
+"88
+} 0
+"245
+[v _ADC_INITIAL ADC_INITIAL `(v  1 e 1 0 ]
+{
+"257
+} 0
+"63
+[v _DelayUs DelayUs `(v  1 e 1 0 ]
+{
+"65
+[v DelayUs@a a `ui  1 a 2 4 ]
+"63
+[v DelayUs@Time Time `ui  1 p 2 2 ]
+"70
+} 0
+"99
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"122
+} 0

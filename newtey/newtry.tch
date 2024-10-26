@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<IC mcu="FT62F283B_SOP16">
+    <pins>
+        <pin pin="3" key="1" t="26" color="16711935" />
+    </pins>
+    <params cs="0" lowpwr="0" multiple="48" />
+    <compiler type="GCC" />
+    <setting customer="0" lver="0" dlbyide="0" txport="PB7" rxport="PB6" ctxport="" crxport="" ispport="" refcap="6.8 nF" />
+    <curve baselinemin="300" baselinemax="600" rawdatamin="300" rawdatamax="600" differmin="-300" differmax="300" />
+    <trigger values="412,10,OK,12" />
+    <lowpower MaskA="0" MaskB="0" MaskC="0" MaskD="0" minTrigger="0" nGroupCnt="0" />
+</IC>
